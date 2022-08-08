@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/genieclust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/genieclust/genieclust_{{ version }}.tar.gz
-  sha256: c37e65b84aea87f24ba3df4e3c8a3f856dc46492ac40e62935c86c5f325d6bbd
+  sha256: dcc299e415229b557447c8260f13caabf9d373d25d25f7d070c874160aeb3a51
 
 build:
   merge_build_host: true  # [win]
