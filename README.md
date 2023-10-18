@@ -3,6 +3,7 @@ About r-genieclust-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-genieclust-feedstock/blob/main/LICENSE.txt)
 
+
 About r-genieclust
 ------------------
 
@@ -11,6 +12,7 @@ Home: https://genieclust.gagolewski.com/
 Package license: AGPL-3.0-only
 
 Summary: A retake on the Genie algorithm - a robust hierarchical clustering method (Gagolewski, Bartoszuk, Cena, 2016 <DOI:10.1016/j.ins.2016.05.003>). Now faster and more memory efficient; determining the whole hierarchy for datasets of 10M points in low dimensional Euclidean spaces or 100K points in high-dimensional ones takes only 1-2 minutes. Allows clustering with respect to mutual reachability distances so that it can act as a noise point detector or a robustified version of 'HDBSCAN*' (that is able to detect a predefined number of clusters and hence it does not dependent on the somewhat fragile 'eps' parameter). The package also features an implementation of economic inequity indices (the Gini, Bonferroni index) and external cluster validity measures (partition similarity scores; e.g., the adjusted Rand, Fowlkes-Mallows, adjusted mutual information, pair sets index). See also the 'Python' version of 'genieclust' available on 'PyPI', which supports sparse data, more metrics, and even larger datasets.
+
 About r-genieclust
 ------------------
 
