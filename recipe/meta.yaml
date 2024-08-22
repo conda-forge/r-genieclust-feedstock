@@ -1,4 +1,4 @@
-{% set version = "1.1.5-2" %}
+{% set version = "1.1.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/genieclust_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/genieclust/genieclust_{{ version }}.tar.gz
-  sha256: 1354cffb0bbdeb0de9e08f2cb69a232b491fba1fed89e3ee0d0430eb371f1959
+  sha256: a48209997309d540e0c34ecb2c4aa097d878dfc08f63008e59e3e9664e57368c
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
